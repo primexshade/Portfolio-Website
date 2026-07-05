@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -13,5 +7,4 @@ html {
 body {
   background: #131417;
   color: white;
-  font-family: Inter, sans-serif;
 }

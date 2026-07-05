@@ -1,5 +1,9 @@
 function FeaturedProjects() {
-    return <div> Featured Projects</div>
+  return (
+    <section id="projects" className="min-h-screen flex items-center justify-center">
+      <h2 className="text-4xl font-bold">Featured Projects</h2>
+    </section>
+  );
 }
 
-export default FeaturedProjects
+export default FeaturedProjects;

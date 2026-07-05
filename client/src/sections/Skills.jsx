@@ -1,5 +1,9 @@
 function Skills() {
-    return <div> Skills Section</div>
+  return (
+    <section id="skills" className="min-h-screen flex items-center justify-center">
+      <h2 className="text-4xl font-bold">Skills</h2>
+    </section>
+  );
 }
 
-export default Skills
+export default Skills;

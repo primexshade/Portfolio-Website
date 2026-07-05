@@ -1,5 +1,9 @@
 function About() {
-    return <div>About Section</div>
+  return (
+    <section id="about" className="min-h-screen flex items-center justify-center">
+      <h2 className="text-4xl font-bold">About</h2>
+    </section>
+  );
 }
 
-export default About
+export default About;
