@@ -13,10 +13,10 @@ function Home() {
       <Navbar />
 
       <Hero />
+      <FeaturedProjects />
       <About />
       <Experience />
       <Skills />
-      <FeaturedProjects />
       <ContactSection />
     </>
   );
