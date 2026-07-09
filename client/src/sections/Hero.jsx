@@ -37,14 +37,21 @@ function Hero() {
             </p>
 
             <div className="flex gap-4 mt-8 flex-wrap">
-              <button className="px-6 py-3 bg-green-600 rounded-xl flex items-center gap-2 font-medium hover:bg-green-700 hover:scale-105 transition-all duration-300 shadow-lg shadow-green-500/20">
+              <a
+                href="#projects"
+                className="px-6 py-3 bg-green-600 rounded-xl flex items-center gap-2 font-medium hover:bg-green-700 hover:scale-105 transition-all duration-300 shadow-lg shadow-green-500/20"
+              >
                 View Projects
                 <FaArrowRight />
-              </button>
-
-              <button className="px-6 py-3 border border-zinc-700 rounded-xl font-medium hover:bg-zinc-900 hover:border-zinc-600 hover:scale-105 transition-all duration-300">
-                Download Resume
-              </button>
+              </a>
+              <a
+                href="/resume/Aryan_Tiwari_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border border-zinc-700 rounded-xl font-medium hover:bg-zinc-900 hover:border-zinc-600 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+              >
+                Download Reume
+              </a>
             </div>
 
             <div className="flex gap-10 mt-8">
